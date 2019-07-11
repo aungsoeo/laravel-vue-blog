@@ -52,7 +52,7 @@ export default {
       formData.append("user_id", this.userId);
       formData.append("image", this.$refs.image.files[0]);
       axios
-        .post("/api/posts", formData)
+        .post("http://103.83.190.196/blog/public/api/posts", formData)
         .then(response => {
           this.successful = true;
           this.error = false;

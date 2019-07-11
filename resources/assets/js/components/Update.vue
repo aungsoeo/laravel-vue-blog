@@ -48,7 +48,7 @@ export default {
       let title = this.$refs.title.value;
       let body = this.$refs.body.value;
       axios
-        .put('/api/posts/' + this.postId, { title, body })
+        .put('http://103.83.190.196/blog/public/api/posts/' + this.postId, { title, body })
         .then(response => {
           this.successful = true;
           this.error = false;
