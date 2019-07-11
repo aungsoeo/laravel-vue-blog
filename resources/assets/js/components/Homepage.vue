@@ -4,7 +4,7 @@
 <nav>
   <section>
     <a style="color: white" href="/">Laravel-CMS</a> &nbsp; ||  &nbsp;
-    <a style="color: white" href="/admin/dashboard">HOME</a>
+    <a style="color: white" href="http://103.83.190.196/blog/public/admin/dashboard">HOME</a>
     <hr>
     <ul>
        <li> <router-link :to="{ name: 'create', params: { userId } }">NEW POST </router-link></li>
