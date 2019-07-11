@@ -8,7 +8,7 @@
     <meta name="author" content="Neo Ighodaro">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>LaravelCMS</title>
+    <title>Linn IT & Mobile</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <style> 
@@ -25,7 +25,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/">LaravelCMS</a>
+        <a class="navbar-brand" href="/">Linn IT & Mobile</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
              @if (Route::has('login'))
@@ -53,7 +53,7 @@
 
   <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; LaravelCMS 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Linn IT & Mobile 2019</p>
       </div>
     </footer>
         <script src="{{ asset('js/app.js') }}"></script>
